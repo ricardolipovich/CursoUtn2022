@@ -1,0 +1,41 @@
+/*inicio home*/
+
+.bienvenidos {
+    width: 75%;
+    padding-right: 10px;
+}
+
+.testimonios {
+    width: 25%;
+}
+
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bienvenidos p {
+    font-size: 20px;
+}
+
+.testimonio {
+    background-color: #ccc;
+    padding: 16px;
+}
+
+.testimonio .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    display: block;
+    /* hace de caja*/
+}
+
+.testimonio .autor {
+    font-size: 10px;
+    display: block;
+    text-align: center;
+}
+
+/*fin home*/
